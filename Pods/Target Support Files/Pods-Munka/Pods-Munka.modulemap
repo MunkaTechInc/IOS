@@ -1,0 +1,6 @@
+framework module Pods_Munka {
+  umbrella header "Pods-Munka-umbrella.h"
+
+  export *
+  module * { export * }
+}

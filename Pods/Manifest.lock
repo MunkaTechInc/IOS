@@ -1,0 +1,174 @@
+PODS:
+  - Alamofire (5.9.1)
+  - AppAuth (1.7.5):
+    - AppAuth/Core (= 1.7.5)
+    - AppAuth/ExternalUserAgent (= 1.7.5)
+  - AppAuth/Core (1.7.5)
+  - AppAuth/ExternalUserAgent (1.7.5):
+    - AppAuth/Core
+  - BetterSegmentedControl (2.0.1)
+  - BRYXBanner (0.8.4)
+  - Charts (4.1.0):
+    - Charts/Core (= 4.1.0)
+  - Charts/Core (4.1.0):
+    - SwiftAlgorithms (~> 1.0)
+  - FBAEMKit (17.0.0):
+    - FBSDKCoreKit_Basics (= 17.0.0)
+  - FBSDKCoreKit (17.0.0):
+    - FBAEMKit (= 17.0.0)
+    - FBSDKCoreKit_Basics (= 17.0.0)
+  - FBSDKCoreKit_Basics (17.0.0)
+  - FBSDKLoginKit (17.0.0):
+    - FBSDKCoreKit (= 17.0.0)
+  - GLWalkthrough (0.1.1)
+  - GoogleMaps (6.2.1):
+    - GoogleMaps/Maps (= 6.2.1)
+  - GoogleMaps/Base (6.2.1)
+  - GoogleMaps/Maps (6.2.1):
+    - GoogleMaps/Base
+  - GooglePlaces (6.2.1)
+  - GoogleSignIn (5.0.2):
+    - AppAuth (~> 1.2)
+    - GTMAppAuth (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GTMAppAuth (1.3.1):
+    - AppAuth/Core (~> 1.6)
+    - GTMSessionFetcher/Core (< 3.0, >= 1.5)
+  - GTMSessionFetcher/Core (1.7.2)
+  - InputBarAccessoryView (5.5.0):
+    - InputBarAccessoryView/Core (= 5.5.0)
+  - InputBarAccessoryView/Core (5.5.0)
+  - IQKeyboardManagerSwift (6.5.16)
+  - JSQMessagesViewController (7.3.5):
+    - JSQSystemSoundPlayer (~> 2.0.1)
+  - JSQSystemSoundPlayer (2.0.1)
+  - JTAppleCalendar (8.0.5)
+  - MessageKit (3.8.0):
+    - InputBarAccessoryView (~> 5.5.0)
+  - PasswordTextField (1.3.0)
+  - RSLoadingView (1.1.3)
+  - SCLAlertView (0.8)
+  - SDWebImage (5.19.1):
+    - SDWebImage/Core (= 5.19.1)
+  - SDWebImage/Core (5.19.1)
+  - Socket.IO-Client-Swift (13.0.1):
+    - Starscream (~> 3.0.2)
+  - Starscream (3.0.6)
+  - Stripe (22.8.4):
+    - Stripe/Stripe3DS2 (= 22.8.4)
+    - StripeApplePay (= 22.8.4)
+    - StripeCore (= 22.8.4)
+    - StripeUICore (= 22.8.4)
+  - Stripe/Stripe3DS2 (22.8.4):
+    - StripeApplePay (= 22.8.4)
+    - StripeCore (= 22.8.4)
+    - StripeUICore (= 22.8.4)
+  - StripeApplePay (22.8.4):
+    - StripeCore (= 22.8.4)
+  - StripeCore (22.8.4)
+  - StripeUICore (22.8.4):
+    - StripeCore (= 22.8.4)
+  - SwiftAlgorithms (1.0.0)
+  - SwiftDefaults (0.1.8)
+  - Toaster (2.3.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - BetterSegmentedControl
+  - BRYXBanner
+  - Charts
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - GLWalkthrough
+  - GoogleMaps
+  - GooglePlaces
+  - GoogleSignIn (~> 5.0.2)
+  - IQKeyboardManagerSwift
+  - JSQMessagesViewController
+  - JTAppleCalendar
+  - MessageKit
+  - PasswordTextField
+  - RSLoadingView
+  - SCLAlertView
+  - SDWebImage
+  - Socket.IO-Client-Swift (~> 13.0.0)
+  - Stripe
+  - SwiftDefaults
+  - Toaster
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AppAuth
+    - BetterSegmentedControl
+    - BRYXBanner
+    - Charts
+    - FBAEMKit
+    - FBSDKCoreKit
+    - FBSDKCoreKit_Basics
+    - FBSDKLoginKit
+    - GLWalkthrough
+    - GoogleMaps
+    - GooglePlaces
+    - GoogleSignIn
+    - GTMAppAuth
+    - GTMSessionFetcher
+    - InputBarAccessoryView
+    - IQKeyboardManagerSwift
+    - JSQMessagesViewController
+    - JSQSystemSoundPlayer
+    - JTAppleCalendar
+    - MessageKit
+    - PasswordTextField
+    - RSLoadingView
+    - SCLAlertView
+    - SDWebImage
+    - Socket.IO-Client-Swift
+    - Starscream
+    - Stripe
+    - StripeApplePay
+    - StripeCore
+    - StripeUICore
+    - SwiftAlgorithms
+    - SwiftDefaults
+    - Toaster
+
+SPEC CHECKSUMS:
+  Alamofire: f36a35757af4587d8e4f4bfa223ad10be2422b8c
+  AppAuth: 501c04eda8a8d11f179dbe8637b7a91bb7e5d2fa
+  BetterSegmentedControl: 09607b27861d49cbce48b7673b74f9150a3d371a
+  BRYXBanner: 4fbd266f96ce000e4c6cc9a0558c446bd88d9801
+  Charts: ce0768268078eee0336f122c3c4ca248e4e204c5
+  FBAEMKit: 31a20c2d8744d8c57d3a5b7ae4e27b4fdd819193
+  FBSDKCoreKit: dac911b656816f8d0b06e5fa4bac60e89505bb3b
+  FBSDKCoreKit_Basics: 92b7b7458d57091370b0b6cc197578874c3b4b16
+  FBSDKLoginKit: 5d5271ebfd1e39c6b071de8db5c4bd6255be3561
+  GLWalkthrough: 802e6f7f23ac16d77b3c64dfbf6b4d60d3d48999
+  GoogleMaps: 20d7b12be49a14287f797e88e0e31bc4156aaeb4
+  GooglePlaces: 94974aa119573d5acc2a35a699948dac838abd73
+  GoogleSignIn: 7137d297ddc022a7e0aa4619c86d72c909fa7213
+  GTMAppAuth: 0ff230db599948a9ad7470ca667337803b3fc4dd
+  GTMSessionFetcher: 5595ec75acf5be50814f81e9189490412bad82ba
+  InputBarAccessoryView: 1d7b0a672b36e370f01f264b3907ef39d03328e3
+  IQKeyboardManagerSwift: 12d89768845bb77b55cc092ecc2b1f9370f06b76
+  JSQMessagesViewController: 6587f56aedbcb150a8ba1d968e1ef58b1bc758b7
+  JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
+  JTAppleCalendar: 16c6501b22cb27520372c28b0a2e0b12c8d0cd73
+  MessageKit: a1ba0c69ebead94029867853eb44dd05b9b3f453
+  PasswordTextField: 2fa9a5ef7d3280c3f727a352a36886856e230aaa
+  RSLoadingView: c7749afdd455229643e8f34277d0695973a15b1a
+  SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
+  SDWebImage: 40b0b4053e36c660a764958bff99eed16610acbb
+  Socket.IO-Client-Swift: 7055c89b7a9926b343194c4cac75998329c4a95a
+  Starscream: ef3ece99d765eeccb67de105bfa143f929026cf5
+  Stripe: 59f6659e8ea413def19c97c57e23f5ec6ea48cf8
+  StripeApplePay: 6e9aebd3d248464836e9fbdaef6e5fb1817d56a6
+  StripeCore: 193f27552fb98108ebfe0df11651fe5f38948305
+  StripeUICore: 6a5bbea0164d63bd91000f001903e7901859e1a4
+  SwiftAlgorithms: 38dda4731d19027fdeee1125f973111bf3386b53
+  SwiftDefaults: 83b949412eb2e974f2b3ac7ffc0a3e808aa10d9b
+  Toaster: c3473963c78e8cabbf6ea6f11ad0fdaae6f54987
+
+PODFILE CHECKSUM: 5ce37fe46152abe7ad92bb8eb13672a28cd8329f
+
+COCOAPODS: 1.15.2

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Nunito-SemiBold.ttf">
+            <string>Nunito-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" userLabel="DayHeadeView" customClass="DayHeadeView" customModule="Munka_works" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="60"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qPB-8s-dqb">
+                    <rect key="frame" x="8" y="8" width="377" height="44"/>
+                    <subviews>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sQz-rc-cbX">
+                            <rect key="frame" x="4" y="4" width="369" height="36"/>
+                            <fontDescription key="fontDescription" name="Nunito-SemiBold" family="Nunito" pointSize="14"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KJX-cy-iDB">
+                            <rect key="frame" x="349" y="11" width="20" height="22"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="20" id="Rcc-PB-GEE"/>
+                            </constraints>
+                            <state key="normal" image="ic_checkbox_b"/>
+                            <state key="selected" image="ic_checkbox_a"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="sQz-rc-cbX" secondAttribute="trailing" constant="4" id="8yD-y0-TWg"/>
+                        <constraint firstItem="KJX-cy-iDB" firstAttribute="centerY" secondItem="qPB-8s-dqb" secondAttribute="centerY" id="CEe-9k-fvL"/>
+                        <constraint firstItem="sQz-rc-cbX" firstAttribute="top" secondItem="qPB-8s-dqb" secondAttribute="top" constant="4" id="M0T-sA-lZX"/>
+                        <constraint firstAttribute="bottom" secondItem="sQz-rc-cbX" secondAttribute="bottom" constant="4" id="TEb-jZ-lti"/>
+                        <constraint firstItem="sQz-rc-cbX" firstAttribute="leading" secondItem="qPB-8s-dqb" secondAttribute="leading" constant="4" id="cxb-hG-Fec"/>
+                        <constraint firstAttribute="trailing" secondItem="KJX-cy-iDB" secondAttribute="trailing" constant="8" id="goL-ql-1t2"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="qPB-8s-dqb" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="DR0-cO-OIj"/>
+                <constraint firstAttribute="bottom" secondItem="qPB-8s-dqb" secondAttribute="bottom" constant="8" id="WZz-ze-A2W"/>
+                <constraint firstAttribute="trailing" secondItem="qPB-8s-dqb" secondAttribute="trailing" constant="8" id="i4O-l7-76n"/>
+                <constraint firstItem="qPB-8s-dqb" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="wCE-Lu-0HL"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="btnSelect" destination="KJX-cy-iDB" id="Sug-Z2-uOh"/>
+                <outlet property="lblDay" destination="sQz-rc-cbX" id="2JB-iZ-Bu5"/>
+            </connections>
+            <point key="canvasLocation" x="16" y="-32"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_checkbox_a" width="17" height="17"/>
+        <image name="ic_checkbox_b" width="17" height="17"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
